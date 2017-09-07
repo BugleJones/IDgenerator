@@ -1,5 +1,4 @@
 var countdownGenerator = function (x) {
-	var position = x;
 	var tMinus = "T-minus";
 	var dots = "...";
 
