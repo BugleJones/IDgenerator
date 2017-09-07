@@ -1,10 +1,10 @@
 var countdownGenerator = function (x) {
-	var tMinus = "T-minus";
+	var tMinus = "T-minus ";
 	var dots = "...";
 
 	return function () {
 	if (x > 0) { 
-	console.log("T-minus " + x + dots);
+	console.log(tMinus + x + dots);
 	}
 
 	if (x === 0) {
